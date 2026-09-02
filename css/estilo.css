@@ -1,0 +1,91 @@
+/* Passo 5 — fundo da página e cor do texto */
+body {
+  background: #1a1a1a;
+  color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Passo 6 — título */
+h1 {
+  color: #ffcc00;
+  font-size: 28px;
+  margin: 0 0 6px;
+}
+
+/* só o parágrafo de dentro do header */
+header p {
+  color: #bbbbbb;
+  margin: 0 0 18px;
+}
+
+/* Passo 7 + 9 — a caixa do card */
+main {
+  max-width: 620px;
+  margin: 0 auto;
+  background: #2b2b2b;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+  border: 1px solid #444444;
+}
+
+h2 {
+  color: #66cc66;
+  font-size: 18px;
+  margin: 18px 0 6px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+/* Passo 8 — tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+caption {
+  text-align: left;
+  color: #aaaaaa;
+  font-size: 13px;
+  padding-bottom: 6px;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px 0;
+  border-bottom: 1px solid #555555;
+}
+
+th {
+  color: #cccccc;
+  width: 40%;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  border: 2px solid #555555;
+}
+
+figcaption {
+  color: #aaaaaa;
+  font-size: 13px;
+  padding-top: 6px;
+}
+
+/* rodapé */
+footer p {
+  text-align: center;
+  color: #888888;
+  font-size: 12px;
+  margin-top: 18px;
+}
